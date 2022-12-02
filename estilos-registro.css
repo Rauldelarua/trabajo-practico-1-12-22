@@ -1,0 +1,179 @@
+*{
+    margin: 0px;	
+    padding: 0px;
+    font-size: x-large;
+    background: rgb(141, 186, 68);
+            color: #fff;
+    }
+    
+    body{
+        background: rgb(78, 212, 203);
+            color: #fff;
+    }
+    
+    #HOME {
+        width: 1024px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        animation-name: anim;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes anim
+    {
+        0% {background-color: rgb(107, 233, 178);}
+        25% {background-color: rgb(176, 221, 240);}
+        50% {background-color: rgb(125, 235, 182);}
+        75% {background-color: rgb(237, 119, 241);}
+        100% {background-color: rgb(205, 235, 144);}
+    }
+    
+
+
+    header {
+        height: 150px;
+        background: #000;
+    }
+    
+    header h1 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 150px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    
+    nav {
+        background: rgb(127, 194, 146);
+        height: 60px;
+       
+    }
+    #MENU {
+       
+        font-size: 40px;
+        text-align: center;
+        line-height: 60px;
+        margin-top: 10px;
+        margin-right: 10px;
+    
+       
+    }  
+    
+
+    #ING {
+        
+        width: 960px;
+        height: auto;
+        background: rgb(29, 200, 243);
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .drop-cap p:first-child::first-letter {
+        float: left;
+        font-size: 3.1em;
+        line-height: 1;
+        margin: 0.2rem;
+        margin-right: 0.5rem;
+        padding: 0.2rem;
+        background: #7d40a7;
+        box-shadow: 0 0 0 .2rem #a070c0;
+        border: 0.2rem solid black;        
+      }
+
+    
+    #contenido {
+       
+        width: 960px;
+        height: 1150px;
+        background: rgb(72, 134, 163);
+        
+        margin-top: 10px;
+        margin-right: 10px;
+        
+    }
+
+#contenido2{
+    
+    width: 960px;
+    height: 3400px;
+    background: rgb(125, 222, 103);
+    
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+    
+    h2{
+        font-size: 40px;
+     
+         }
+
+          
+         h3{
+           
+
+         }
+
+    #titulo {
+        font-size: 30px;
+    
+    }
+    p{font-size: 20px;
+    }
+    
+
+    
+    footer {
+        background: rgb(114, 94, 247);
+        width: 100%;
+        height: 100%;
+        
+        margin-top: 10px;
+        margin-right: 20px;
+       
+        border-top: 2px solid rgba(102, 224, 226, 0.982);  
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+}
+
+
+
+
+
+
+
+.btn {
+	font-size: 16px; 
+	color: #ffffff; 
+	background-color: #1ed5e9; 
+	position: fixed;
+	bottom: 40px;
+	right:50px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(171, 84, 165, 0.1);
+	z-index: 99;
+}
+
+
+#consulta{
+
+ margin-left: 20px;
+}
+
+h3{
+    margin-top: 10px;
+    font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+
+#map{
+    margin-left: 10px;
+}
+
+
+
+
